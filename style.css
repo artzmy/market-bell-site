@@ -31,16 +31,7 @@ body {
   padding: 48px 24px 96px;
 }
 .brand {
-  display: flex;
-  align-items: center;
-  gap: 10px;
   margin-bottom: 8px;
-}
-.brand .dot {
-  display: inline-block;
-  width: 10px; height: 10px; border-radius: 50%;
-  background: var(--accent);
-  flex: none;
 }
 .brand span {
   font-weight: 600;
