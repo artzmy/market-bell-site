@@ -37,6 +37,7 @@ body {
   margin-bottom: 8px;
 }
 .brand .dot {
+  display: inline-block;
   width: 10px; height: 10px; border-radius: 50%;
   background: var(--accent);
   flex: none;
