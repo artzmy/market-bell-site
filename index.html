@@ -3,30 +3,107 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Market Bell — Support</title>
+<title>Market Bell — Global Market Open &amp; Close Countdown for iOS</title>
+<meta name="description" content="Market Bell tells you at a glance whether a market is open, closed, or about to change. Lunch breaks, daylight saving and exchange holidays are handled automatically. Widgets, alerts and Live Activities included.">
+<link rel="canonical" href="https://artzmy.github.io/market-bell-site/">
+<link rel="icon" href="icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Market Bell">
+<meta property="og:url" content="https://artzmy.github.io/market-bell-site/">
+<meta property="og:title" content="Market Bell — Know exactly when the markets open">
+<meta property="og:description" content="Countdowns to every open and close, across every timezone that matters to you. Lunch breaks, daylight saving and exchange holidays handled automatically. Free on the App Store.">
+<meta property="og:image" content="https://artzmy.github.io/market-bell-site/icon.png">
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
+<meta property="og:image:alt" content="Market Bell — global market open and close countdown for iOS">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Market Bell — Know exactly when the markets open">
+<meta name="twitter:description" content="Countdowns to every open and close, across every timezone that matters to you. Lunch breaks, daylight saving and exchange holidays handled automatically.">
+<meta name="twitter:image" content="https://artzmy.github.io/market-bell-site/icon.png">
+<meta name="twitter:image:alt" content="Market Bell — global market open and close countdown for iOS">
+
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="wrap">
-  <nav class="top"><a href="./">Support</a><a href="privacy.html">Privacy Policy</a></nav>
+<div class="wrap wide">
+  <nav class="top"><a href="./">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy Policy</a></nav>
 
-  <div class="brand"><span>MARKET BELL</span></div>
-  <h1>Support</h1>
-  <p class="updated">Market Bell: global stock market open/close countdown for iOS.</p>
+  <header class="hero">
+    <img class="hero-icon" src="icon.png" alt="Market Bell app icon" width="96" height="96">
+    <h1 class="hero-title">Know exactly when<br>the markets open.</h1>
+    <p class="hero-sub">Market Bell shows you the moment that matters &mdash; how long until a market opens, closes, or comes back from lunch. Across every timezone you care about.</p>
+    <p class="cta">
+      <a class="btn" href="https://apps.apple.com/app/id6783567802?ct=site-landing">Download on the App Store</a>
+    </p>
+    <p class="cta-note">Free &middot; iPhone &middot; Widgets, alerts and Live Activities included</p>
+  </header>
 
-  <div class="card">
-    <p><strong>Need help, found a bug, or have a suggestion?</strong></p>
-    <p>Open Market Bell → <strong>Settings → Feedback</strong>, and send a message directly from the app. That's the fastest way to reach the developer; it goes straight to my inbox.</p>
-  </div>
+  <!-- Illustrative mock of the app's market list. Not a screenshot. -->
+  <section class="mock" aria-label="Example of the market list">
+    <div class="mock-row">
+      <span class="mock-flag" aria-hidden="true">US</span>
+      <span class="mock-name">New York <em>NYSE &amp; Nasdaq</em></span>
+      <span class="mock-state open">Open</span>
+      <span class="mock-time">closes in 2:41:07</span>
+    </div>
+    <div class="mock-row">
+      <span class="mock-flag" aria-hidden="true">HK</span>
+      <span class="mock-name">Hong Kong <em>HKEX</em></span>
+      <span class="mock-state lunch">Lunch</span>
+      <span class="mock-time">back in 22:14</span>
+    </div>
+    <div class="mock-row">
+      <span class="mock-flag" aria-hidden="true">JP</span>
+      <span class="mock-name">Tokyo <em>TSE</em></span>
+      <span class="mock-state closed">Closed</span>
+      <span class="mock-time">opens in 14:08:51</span>
+    </div>
+    <div class="mock-row">
+      <span class="mock-flag" aria-hidden="true">GB</span>
+      <span class="mock-name">London <em>LSE</em></span>
+      <span class="mock-state closed">Holiday</span>
+      <span class="mock-time">Summer Bank Holiday</span>
+    </div>
+  </section>
 
-  <h2>Common questions</h2>
-  <ul>
-    <li><strong>A market's hours look wrong.</strong> Exchange calendars (holidays, half-days) are updated periodically. Let me know the market and date via in-app Feedback and I'll check it.</li>
-    <li><strong>Widget isn't updating.</strong> iOS limits how often widgets can refresh in the background. That's a system constraint, not a bug. Reopening the app refreshes it immediately.</li>
-    <li><strong>I want to request a market or language.</strong> Send it through in-app Feedback — that's exactly what it's for.</li>
-  </ul>
+  <section class="features">
+    <h2 class="section-title">Why Market Bell</h2>
+    <div class="grid">
+      <div class="feat">
+        <h3>Lunch breaks, handled right</h3>
+        <p>Hong Kong, mainland China, Japan and Korea all pause midday. Market Bell knows exactly when trading stops and when it resumes.</p>
+      </div>
+      <div class="feat">
+        <h3>Daylight saving, done for you</h3>
+        <p>US and European market hours shift by an hour through the year. No more mental math about what time the open actually lands in your day.</p>
+      </div>
+      <div class="feat">
+        <h3>Holidays and half days, built in</h3>
+        <p>Every supported exchange's holiday calendar ships inside the app and is kept current &mdash; including shortened trading days.</p>
+      </div>
+      <div class="feat">
+        <h3>Never open the app</h3>
+        <p>Home Screen widgets, open alerts and Live Activities put the countdown where you already look. The widget is the product.</p>
+      </div>
+    </div>
+  </section>
 
-  <footer>Market Bell for iOS · <a href="privacy.html">Privacy Policy</a></footer>
+  <section class="markets">
+    <h2 class="section-title">Markets covered</h2>
+    <p class="market-list">United States &middot; Japan &middot; South Korea &middot; Hong Kong &middot; mainland China &middot; United Kingdom &middot; Germany &middot; Euronext</p>
+  </section>
+
+  <section class="closing card">
+    <p><strong>Questions, bugs, or a market you want added?</strong></p>
+    <p>Everything goes through <a href="support.html">Support</a> &mdash; or straight from the app via Settings &rarr; Feedback.</p>
+  </section>
+
+  <p class="cta cta-bottom">
+    <a class="btn" href="https://apps.apple.com/app/id6783567802?ct=site-landing-bottom">Download on the App Store</a>
+  </p>
+
+  <footer>Market Bell for iOS &middot; <a href="support.html">Support</a> &middot; <a href="privacy.html">Privacy Policy</a></footer>
 </div>
 </body>
 </html>
