@@ -188,8 +188,9 @@ footer {
 
 .features, .markets { margin-bottom: 52px; }
 .market-list { color: var(--muted); font-size: 15px; margin: 0; }
-.closing { margin-bottom: 8px; }
-.closing p:last-child { margin-bottom: 0; }
+.support-block { margin-bottom: 8px; }
+.support-block .card p:last-child { margin-bottom: 0; }
+.support-more { color: var(--muted); font-size: 14px; }
 
 @media (max-width: 560px) {
   .mock-row { grid-template-columns: 34px 1fr auto; row-gap: 4px; }
