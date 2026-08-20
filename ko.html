@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Market Bell — 전 세계 증시 개장·폐장 카운트다운</title>
+<meta name="description" content="개장·폐장·점심시간 종료까지 남은 시간을 한눈에. 점심시간, 서머타임, 공휴일까지 모두 자동으로 처리합니다. 위젯, 개장 알림, 다이나믹 아일랜드 지원.">
+<link rel="canonical" href="https://artzmy.github.io/market-bell-site/ko.html">
+<link rel="alternate" hreflang="en" href="https://artzmy.github.io/market-bell-site/">
+<link rel="alternate" hreflang="zh-Hans" href="https://artzmy.github.io/market-bell-site/zh.html">
+<link rel="alternate" hreflang="ja" href="https://artzmy.github.io/market-bell-site/ja.html">
+<link rel="alternate" hreflang="ko" href="https://artzmy.github.io/market-bell-site/ko.html">
+<link rel="alternate" hreflang="x-default" href="https://artzmy.github.io/market-bell-site/">
+<link rel="icon" href="icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Market Bell">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:url" content="https://artzmy.github.io/market-bell-site/ko.html">
+<meta property="og:title" content="Market Bell — 전 세계 증시 개장·폐장 카운트다운">
+<meta property="og:description" content="개장·폐장·점심시간 종료까지 남은 시간을 한눈에. 점심시간도 서머타임도 공휴일도 자동으로 처리됩니다. App Store에서 무료.">
+<meta property="og:image" content="https://artzmy.github.io/market-bell-site/icon.png">
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
+<meta property="og:image:alt" content="Market Bell — 전 세계 증시 개장·폐장 카운트다운">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Market Bell — 전 세계 증시 개장·폐장 카운트다운">
+<meta name="twitter:description" content="개장·폐장·점심시간 종료까지 남은 시간을 한눈에. 점심시간도 서머타임도 공휴일도 자동으로 처리됩니다. App Store에서 무료.">
+<meta name="twitter:image" content="https://artzmy.github.io/market-bell-site/icon.png">
+<meta name="twitter:image:alt" content="Market Bell — 전 세계 증시 개장·폐장 카운트다운">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap wide">
+  <nav class="top"><a href="ko.html">홈</a><a href="support.html">지원</a><a href="privacy.html">개인정보</a></nav>
+
+  <header class="hero">
+    <img class="hero-icon" src="icon.png" alt="Market Bell" width="96" height="96">
+    <h1 class="hero-title">장이 열리기까지<br>얼마나 남았는지.</h1>
+    <p class="hero-sub">Market Bell은 가장 궁금한 것만 알려줍니다 — 개장·폐장·점심시간 종료까지 남은 시간. 신경 쓰는 모든 시간대에서.</p>
+    <p class="cta">
+      <a class="btn" href="https://apps.apple.com/app/id6783567802?ct=site-ko">App Store에서 무료 다운로드</a>
+    </p>
+    <p class="cta-note">무료 &middot; iPhone &middot; 위젯·알림·다이나믹 아일랜드 포함</p>
+  </header>
+
+  <!-- 纯 CSS 画的示意，不是截图 -->
+  <section class="mock" aria-label="시장 목록 예시">
+    <div class="mock-row">
+      <span class="mock-flag" aria-hidden="true">US</span>
+      <span class="mock-name">뉴욕 <em>NYSE &amp; 나스닥</em></span>
+      <span class="mock-state open">거래 중</span>
+      <span class="mock-time">폐장까지 2:41:07</span>
+    </div>
+    <div class="mock-row">
+      <span class="mock-flag" aria-hidden="true">HK</span>
+      <span class="mock-name">홍콩 <em>홍콩거래소</em></span>
+      <span class="mock-state lunch">점심시간</span>
+      <span class="mock-time">22:14 후 재개</span>
+    </div>
+    <div class="mock-row">
+      <span class="mock-flag" aria-hidden="true">JP</span>
+      <span class="mock-name">도쿄 <em>도쿄증권거래소</em></span>
+      <span class="mock-state closed">폐장</span>
+      <span class="mock-time">개장까지 14:08:51</span>
+    </div>
+    <div class="mock-row">
+      <span class="mock-flag" aria-hidden="true">GB</span>
+      <span class="mock-name">런던 <em>런던증권거래소</em></span>
+      <span class="mock-state closed">휴장</span>
+      <span class="mock-time">서머 뱅크 홀리데이</span>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2 class="section-title">왜 Market Bell인가</h2>
+    <div class="grid">
+      <div class="feat">
+        <h3>점심시간도 정확하게</h3>
+        <p>홍콩·중국 본토·일본·한국은 거래 중 점심시간이 있습니다. Market Bell은 멈추는 시각과 재개하는 시각을 정확히 압니다.</p>
+      </div>
+      <div class="feat">
+        <h3>서머타임도 자동 반영</h3>
+        <p>미국과 유럽 시장의 거래 시간은 해마다 바뀝니다. 내 시간으로 환산할 필요가 없습니다.</p>
+      </div>
+      <div class="feat">
+        <h3>공휴일과 단축 거래일 내장</h3>
+        <p>지원하는 각 거래소의 휴장일 캘린더가 앱에 내장되어 있고 항상 최신 상태로 유지됩니다.</p>
+      </div>
+      <div class="feat">
+        <h3>앱을 열지 않아도</h3>
+        <p>홈 화면 위젯, 개장 알림, 다이나믹 아일랜드. 이미 보고 있는 곳에 카운트다운을 놓습니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="markets">
+    <h2 class="section-title">지원 시장</h2>
+    <p class="market-list">미국 &middot; 일본 &middot; 한국 &middot; 홍콩 &middot; 중국 &middot; 영국 &middot; 독일 &middot; 유로넥스트</p>
+  </section>
+
+  <section class="support-block">
+    <h2 class="section-title">지원</h2>
+    <div class="card">
+      <p><strong>질문, 버그, 추가했으면 하는 시장이 있나요?</strong></p>
+      <p>Market Bell을 열고 <strong>설정 &rarr; 피드백</strong>에서 바로 메시지를 보내세요. 개발자에게 직접 전달되며 가장 빠르게 답변을 받을 수 있습니다.</p>
+      <p class="support-more">자주 묻는 질문(잘못된 장 시간, 새로고침되지 않는 위젯, 시장·언어 추가 요청)은 <a href="support.html">지원 페이지</a>(영어)에 있습니다. 데이터 처리는 <a href="privacy.html">개인정보 처리방침</a>(영어)을 참고하세요.</p>
+    </div>
+  </section>
+
+  <p class="cta cta-bottom">
+    <a class="btn" href="https://apps.apple.com/app/id6783567802?ct=site-ko-bottom">App Store에서 무료 다운로드</a>
+  </p>
+
+  <nav class="langnav"><a href="./">English</a> <a href="zh.html">简体中文</a> <a href="ja.html">日本語</a> <span class="lang-current">한국어</span></nav>
+
+  <footer>Market Bell for iOS &middot; <a href="support.html">지원</a> &middot; <a href="privacy.html">개인정보</a></footer>
+</div>
+</body>
+</html>

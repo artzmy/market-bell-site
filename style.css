@@ -196,3 +196,14 @@ footer {
   .mock-row { grid-template-columns: 34px 1fr auto; row-gap: 4px; }
   .mock-time { grid-column: 2 / -1; font-size: 13px; color: var(--muted); }
 }
+
+/* 语言切换（落地页底部） */
+.langnav {
+  margin: 44px 0 0;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  font-size: 14px;
+}
+.langnav a { color: var(--muted); text-decoration: none; margin-right: 18px; }
+.langnav a:hover { color: var(--accent); }
+.lang-current { color: var(--fg); font-weight: 600; margin-right: 18px; }
